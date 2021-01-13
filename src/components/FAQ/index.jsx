@@ -22,7 +22,7 @@ function Faq() {
       <div className="row">
         <div className="left-text col-lg-6 col-md-6 col-sm-12">
           <h5>
-            className aptent taciti sociosqu ad litora torquent per conubia
+             aptent taciti sociosqu ad litora torquent per conubia
           </h5>
           <div className="accordion-text">
             <p>
@@ -39,6 +39,7 @@ function Faq() {
             </p>
             <span>
               Email: <a href="#">email@company.com</a>
+              <br />
             </span>
             <a href="#contact-us" className="main-button">
               Contact Us
@@ -59,9 +60,11 @@ function Faq() {
                   <p>
                     Duis vulputate porttitor urna sit amet pretium. Phasellus
                     sed pulvinar eros, condimentum consequat ex. Suspendisse
-                    potenti. Pellentesque maximus lorem sed elit imperdiet
-                    mattis. Duis posuere mauris ut eros rutrum sodales. Aliquam
-                    erat volutpat.
+                    potenti.
+                    <br />
+                    <br /> Pellentesque maximus lorem sed elit imperdiet mattis.
+                    Duis posuere mauris ut eros rutrum sodales. Aliquam erat
+                    volutpat.
                   </p>
                 </div>
               </div>
@@ -79,6 +82,8 @@ function Faq() {
                     Sed odio elit, cursus sed consequat at, rutrum eget augue.
                     Cras ac eros iaculis, tempor quam sit amet, scelerisque mi.
                     Quisque eu risus eget nunc porttitor vestibulum at a ante.
+                    <br />
+                    <br />
                     Praesent ut placerat turpis, vel pellentesque dolor. Sed
                     rutrum eleifend tortor, eu luctus orci sagittis in. In
                     blandit fringilla mollis.
@@ -98,10 +103,12 @@ function Faq() {
                   <p>
                     Proin feugiat ante ut vulputate rutrum. Nam quis erat
                     turpis. Nullam maximus pharetra lorem, eu condimentum est
-                    iaculis ut. Pellentesque mattis ultrices dignissim. Etiam et
-                    enim finibus, feugiat massa efficitur, finibus sapien. Sed
-                    cursus lacus quis arcu scelerisque, eget ornare risus
-                    maximus. Aenean non lectus id odio rhoncus pharetra.
+                    iaculis ut.
+                    <br />
+                    <br /> Pellentesque mattis ultrices dignissim. Etiam et enim
+                    finibus, feugiat massa efficitur, finibus sapien. Sed cursus
+                    lacus quis arcu scelerisque, eget ornare risus maximus.
+                    Aenean non lectus id odio rhoncus pharetra.
                   </p>
                 </div>
               </div>
@@ -144,7 +151,7 @@ function Faq() {
                     <br />
                     <br />
                     Sed nec ex nec tortor fermentum sollicitudin id ut ligula.
-                    Ut sagittis rutrum lectus, non sagittis ante euismod eu.{" "}
+                    Ut sagittis rutrum lectus, non sagittis ante euismod eu.
                   </p>
                 </div>
               </div>

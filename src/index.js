@@ -1,8 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import App from './app/App';
 import reportWebVitals from './reportWebVitals';
+import './assets/css/bootstrap.min.css'
+import './assets/css/flex-slider.css'
+import './assets/css/font-awesome.css'
+import './assets/css/owl-carousel.css'
+import './assets/css/templatemo-art-factory.css'
+
+
 
 ReactDOM.render(
   <React.StrictMode>

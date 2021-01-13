@@ -1,23 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import { Helmet } from "react-helmet";
+import LandingPage from '../pages/landingPage/LandingPage'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Helmet>
+        <link
+          href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,500&display=swap"
+          rel="stylesheet"
+        />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,300&display=swap"
+          rel="stylesheet"
+        />
+      </Helmet>
+      <LandingPage/>
     </div>
   );
 }

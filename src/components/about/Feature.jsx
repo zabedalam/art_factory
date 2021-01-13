@@ -1,3 +1,9 @@
+import aboutIcon from '../../assets/images/about-icon-01.png'
+import aboutIcon2 from '../../assets/images/about-icon-02.png'
+import aboutIcon3 from '../../assets/images/about-icon-03.png'
+import rightImage from '../../assets/images/right-image.png'
+
+
 function Feature() {
   return (
     <div>
@@ -13,7 +19,7 @@ function Feature() {
             </p>
             <ul>
               <li>
-                <img src="assets/images/about-icon-01.png" alt="" />
+                <img src={aboutIcon} alt="" />
                 <div className="text">
                   <h6>Nulla ultricies risus quis risus</h6>
                   <p>
@@ -23,7 +29,7 @@ function Feature() {
                 </div>
               </li>
               <li>
-                <img src="assets/images/about-icon-02.png" alt="" />
+                <img src={aboutIcon2} alt="" />
                 <div className="text">
                   <h6>Donec consequat commodo purus</h6>
                   <p>
@@ -33,7 +39,7 @@ function Feature() {
                 </div>
               </li>
               <li>
-                <img src="assets/images/about-icon-03.png" alt="" />
+                <img src={aboutIcon3} alt="" />
                 <div className="text">
                   <h6>Sed placerat sollicitudin mauris</h6>
                   <p>
@@ -52,7 +58,7 @@ function Feature() {
             data-scroll-reveal="enter right move 30px over 0.6s after 0.4s"
           >
             <img
-              src="assets/images/right-image.png"
+              src={rightImage}
               className="rounded img-fluid d-block mx-auto"
               alt="App"
             />
